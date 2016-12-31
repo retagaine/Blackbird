@@ -1,0 +1,64 @@
+@font-face {
+	font-family: Muli;
+	src: url('../fonts/Muli/Muli-Regular.ttf');
+}
+
+@font-face {
+	font-family: Muli;
+	src: url('../fonts/Muli/Muli-ExtraLight.ttf');
+	font-weight: 200;
+}
+
+body {
+	background: #000000;
+	color: #ffffff;
+	margin: 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #aaaaaa;
+}
+
+i {
+	font-size: 200%;
+	width: 25px;
+}
+
+.wrapper {
+	margin: 22px;
+	font-family: Muli;
+}
+
+.info {
+	color: #aaaaaa;
+	font-weight: 200;
+}
+
+#rewind, #play, #forward {
+	margin: 0 20px 0 20px;
+	color: #ffffff;
+}
+
+/* what is even going on with foundation fixed width icons */
+.fi-pause {
+	margin: 0 1.5px 0 1.5px;
+}
+
+#rewind:active, #play:active, #forward:active {
+	color: #aaaaaa;
+}
+
+#number, #artist, #album {
+	color: #ffffff;
+}
+
+#album, #artist {
+	text-decoration: none;
+	transition: color 1s;
+}
+
+#album:hover, #artist:hover {
+	color: #7eb6ff;
+}

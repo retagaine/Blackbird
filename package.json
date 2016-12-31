@@ -1,0 +1,11 @@
+{
+  "name": "Blackbird",
+  "productName": "Blackbird",
+  "version": "0.0.01",
+  "main": "main.js",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "electron": "^1.4.13",
+    "electron-packager": "^8.4.0"
+  }
+}
